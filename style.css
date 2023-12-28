@@ -1,0 +1,149 @@
+/* - White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(216, 12%, 8%) ;
+    font-size: 15px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 40px;
+    width: 450px;
+   
+}
+
+.container img{
+    background-color: hsl(213, 21%, 22%);
+    padding: 12px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.container h1{
+    color: #fff;
+    margin: 15px 0 25px;
+}
+
+.container p{
+    color: hsl(217, 12%, 63%);
+    margin: 15px 0 25px;
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.container ul li button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px 5px;
+    padding-top: 16px;
+    background-color:  hsl(213, 21%, 22%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.container ul li button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.container ul li button:focus{
+    background-color: silver;
+}
+
+button{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    padding: 13px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color:  rgb(255, 255, 255);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 40px;
+    width: 450px;
+   
+}
+
+.thank-you img{
+    display: block;
+    margin: 10px;
+}
+
+.new {
+    color: hsl(25, 97%, 53%);
+    background-color:  hsl(213, 21%, 22%);
+    border-radius: 20px;
+    padding: 5px 15px;
+    padding-top: 8px;
+    margin: 15px;
+}
+
+h2{
+    color: #fff;
+    margin: 10px 15px;
+}
+
+.thank-you p{
+    color: hsl(217, 12%, 63%);
+    margin: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
